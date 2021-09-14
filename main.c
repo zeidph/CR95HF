@@ -40,7 +40,7 @@ int main(void)
 	uart_init(); // open the communication to the microcontroller
 	io_redirect(); // redirect input and output to the communication
 	printf("Hello !!\n");
-    if(CR95HF_init()){
+	if(CR95HF_init()){
 		printf("initialization success\n");
 	}else{
 		printf("initialization failed\n");
